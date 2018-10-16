@@ -1,6 +1,6 @@
 var nombre = prompt("Introdueix un nombre");
 
-if(isNaN(nombre)){
+if(!isNaN(nombre)){
     alert("S'ha introduït un nombre");
     if(nombre<10){
     alert("El nombre té una xifra");
